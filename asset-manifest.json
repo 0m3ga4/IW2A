@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IW2A/static/css/main.9cce0a87.css",
+    "main.js": "/IW2A/static/js/main.f5129590.js",
+    "index.html": "/IW2A/index.html",
+    "main.9cce0a87.css.map": "/IW2A/static/css/main.9cce0a87.css.map",
+    "main.f5129590.js.map": "/IW2A/static/js/main.f5129590.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cce0a87.css",
+    "static/js/main.f5129590.js"
+  ]
+}
