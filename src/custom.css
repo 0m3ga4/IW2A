@@ -1,0 +1,21 @@
+.link-style {
+  color: cyan; /* Sets the text color to cyan */
+  display: flex; /* Ensures the icon and text are in line */
+  align-items: center; /* Centers the icon with the text */
+}
+
+.link-style::before {
+  content: '🔗'; /* Adds a link symbol before the text */
+  margin-right: 4px; /* Adds some space between the symbol and the text */
+}
+/* custom.css */
+.link-style {
+  color: cyan;
+  display: flex;
+  align-items: center;
+}
+
+.link-style::before {
+  content: '🔗';
+  margin-right: 4px;
+}
