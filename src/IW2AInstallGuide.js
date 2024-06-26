@@ -7,8 +7,7 @@ const Tutorial = () => {
 
   const categories = [
     { title: "Preparation", steps: [
-      { title: "Clean Install", content: "Delete the following folders for a clean install:\n- C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4\n- C:\\Users\\[USERNAME]\\AppData\\Roaming\\Vortex\\fallout4\n- C:\\Users\\[USERNAME]\\AppData\\Local\\Fallout4\n- C:\\Users\\[USERNAME]\\Documents\\My Games\\Fallout4\n\nReplace [USERNAME] with your computer username.",
-mediaUrl: "https://media.nexusmods.com/8/9/t/med/89038b15-765e-40f5-94f5-e1af985d896b.webp"
+      { title: "Clean Install", content: "Delete the following folders for a clean install:\n- C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4\n- C:\\Users\\[USERNAME]\\AppData\\Roaming\\Vortex\\fallout4\n- C:\\Users\\[USERNAME]\\AppData\\Local\\Fallout4\n- C:\\Users\\[USERNAME]\\Documents\\My Games\\Fallout4\n\nReplace [USERNAME] with your computer username."
  },
       { title: "Fresh Installation", content: "Download a fresh Fallout 4 installation from Steam. Note: Pirated copies WILL NOT WORK due to fo4down-with-depots requiring steam verification." },
       { title: "Fo4Downgrader", content: "Extract Fo4Downgrader into the game directory so that 'FO4Down.exe' is beside 'Fallout4.exe'. (Typically C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4)\n\nDownload from: <a href='https://www.nexusmods.com/fallout4/mods/81630' target='_blank' rel='noopener noreferrer'>https://www.nexusmods.com/fallout4/mods/81630</a>",
