@@ -7,16 +7,22 @@ const Tutorial = () => {
 
   const categories = [
     { title: "Preparation", steps: [
-      { title: "Clean Install", content: "Delete the following folders for a clean install:\n- C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4\n- C:\\Users\\[USERNAME]\\AppData\\Roaming\\Vortex\\fallout4\n- C:\\Users\\[USERNAME]\\AppData\\Local\\Fallout4\n- C:\\Users\\[USERNAME]\\Documents\\My Games\\Fallout4\n\nReplace [USERNAME] with your computer username." },
+      { title: "Clean Install", content: "Delete the following folders for a clean install:\n- C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4\n- C:\\Users\\[USERNAME]\\AppData\\Roaming\\Vortex\\fallout4\n- C:\\Users\\[USERNAME]\\AppData\\Local\\Fallout4\n- C:\\Users\\[USERNAME]\\Documents\\My Games\\Fallout4\n\nReplace [USERNAME] with your computer username.",
+mediaUrl: "https://photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg"
+ },
       { title: "Fresh Installation", content: "Download a fresh Fallout 4 installation from Steam. Note: Pirated copies WILL NOT WORK due to fo4down-with-depots requiring steam verification." },
-      { title: "Fo4Downgrader", content: "Extract Fo4Downgrader into the game directory so that 'FO4Down.exe' is beside 'Fallout4.exe'. (Typically C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4)\n\nDownload from: <a href='https://www.nexusmods.com/fallout4/mods/81630' target='_blank' rel='noopener noreferrer'>https://www.nexusmods.com/fallout4/mods/81630</a>" },
-      { title: "Downgrade", content: "Run 'Downgrade By Downloading Depots.bat' from Fallout 4 Downgrader. In the advanced tab, enable options 1, 2, and 4. Run the application. Your Fallout should now be ver.1.10.163.0" },
+      { title: "Fo4Downgrader", content: "Extract Fo4Downgrader into the game directory so that 'FO4Down.exe' is beside 'Fallout4.exe'. (Typically C:\\Program Files (x86)\\Steam\\steamapps\\common\\Fallout 4)\n\nDownload from: <a href='https://www.nexusmods.com/fallout4/mods/81630' target='_blank' rel='noopener noreferrer'>https://www.nexusmods.com/fallout4/mods/81630</a>",
+mediaUrl: "https://i.imgur.com/QJuW9hI.png" },
+      { title: "Downgrade", content: "Run 'Downgrade By Downloading Depots.bat' from Fallout 4 Downgrader. In the advanced tab, enable options 1, 2, and 4. Run the application. Your Fallout should now be ver.1.10.163.0",
+ mediaUrl: "https://i.imgur.com/ekPvcoO.png" },
       { title: "First Launch", content: "Open 'Fallout4Launcher.exe' and continue until you reach the main menu. Then close the game." },
-      { title: "Script Extender", content: "Download 'Fallout 4 Script Extender (F4SE) Version 0.6.23' (Compatible with runtime 1.10.163). Extract it so that 'f4se_loader.exe' is in the same location as your 'Fallout4.exe' and 'FO4Down.exe'\n\nDownload from: <a href='https://www.nexusmods.com/fallout4/mods/42147?tab=files' target='_blank' rel='noopener noreferrer'>https://www.nexusmods.com/fallout4/mods/42147?tab=files</a>" },
+      { title: "Script Extender", content: "Download 'Fallout 4 Script Extender (F4SE) Version 0.6.23' (Compatible with runtime 1.10.163). Extract it so that 'f4se_loader.exe' is in the same location as your 'Fallout4.exe' and 'FO4Down.exe'\n\nDownload from: <a href='https://www.nexusmods.com/fallout4/mods/42147?tab=files' target='_blank' rel='noopener noreferrer'>https://www.nexusmods.com/fallout4/mods/42147?tab=files</a>",
+mediaUrl: "https://i.imgur.com/7GiMB95.png"  },
       { title: "Launch Test", content: "From now on, launch the game via 'f4se_loader.exe'. Test this now to see if the game successfully launches." }
     ]},
     { title: "Installation", steps: [
-      { title: "Vortex Cleanup", content: "In Vortex:\n1. Delete all plugin rules. (Plugins -> Manage Rules -> Click the minus (-) button on every rule.) \n2. Reset all plugin groups. (Plugins -> Manage groups -> Right click in the blank space in the web -> reset -> check revert and remove boxes, continue).\n3. Delete current collection (choose 'Delete mods. Keep archives' when prompted)\n4. Delete profile" },
+      { title: "Vortex Cleanup", content: "In Vortex:\n1. Delete all plugin rules. (Plugins -> Manage Rules -> Click the minus (-) button on every rule.) \n2. Reset all plugin groups. (Plugins -> Manage groups -> Right click in the blank space in the web and press reset -> revert and remove). \n3. Delete current collection (choose 'Delete mods. Keep archives' when prompted)\n4. Delete profile",
+mediaUrl: "https://i.imgur.com/r2DBkLc.gif" },
       { title: "IW2A Download and New Profile", content: "1. Download IW2A via Vortex.\n2. Install as new profile and wait for completion. Skip optional files for now." },
       { title: "Additional Mods", content: "Install the following mods:\n- <a href='https://www.loverslab.com/files/file/3949-strap-ons-of-fallout-4/' target='_blank' rel='noopener noreferrer'>VIO_Strap-on v3.7z</a>\n- <a href='https://www.loverslab.com/files/file/18178-aaf-nuka-ride-a-porn-studio-mod/' target='_blank' rel='noopener noreferrer'>Nuka Ride 6.7 - Voices 1.5.7z</a>\n- <a href='https://www.loverslab.com/files/file/18178-aaf-nuka-ride-a-porn-studio-mod/' target='_blank' rel='noopener noreferrer'>Nuka Ride 6.7.6.7z</a>\n- <a href='https://www.loverslab.com/files/file/11260-meet-companion-ivy/' target='_blank' rel='noopener noreferrer'>CompanionIvy6.1.7z</a>\n- <a href='https://www.loverslab.com/files/file/11260-meet-companion-ivy/' target='_blank' rel='noopener noreferrer'>CompanIvy_Nuka6.7z</a>\n- <a href='https://discord.gg/QbByC8GV' target='_blank' rel='noopener noreferrer'>AAF_V171-0+beta.7z</a> (In aaf_public_release channel, after clicking the nuke reaction emoji in rules)" },
       { title: "Plugin Setup", content: "1. In Vortex Notifications, allow Companion Ivy to enable multiple ESP's\n2. Ignore other notification errors for now\n3. Go to plugins tab and manually enable 'Nuka Ride.esp' and 'Nuka Ride - Start Me Up Patch.esp' if necessary" },
@@ -39,6 +45,30 @@ const Tutorial = () => {
     ]}
   ];
 
+  const createMarkup = (htmlContent) => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(`<div>${htmlContent}</div>`, 'text/html');
+    doc.querySelectorAll('a').forEach(link => {
+      link.classList.add('link-style');
+    });
+    return { __html: doc.body.innerHTML };
+  };
+
+  const renderMedia = (mediaUrl) => {
+    if (!mediaUrl) return null;
+    const isVideo = mediaUrl.endsWith('.mp4');
+    return isVideo ? (
+      <video controls src={mediaUrl} style={{ width: '100%' }} />
+    ) : (
+      <img src={mediaUrl} alt="Media content" style={{ width: '100%' }} />
+    );
+  };
+
+  const jumpToStep = (categoryIndex, stepIndex) => {
+    setCurrentCategory(categoryIndex);
+    setCurrentStep(stepIndex);
+  };
+
   const nextStep = () => {
     if (currentStep < categories[currentCategory].steps.length - 1) {
       setCurrentStep(currentStep + 1);
@@ -57,17 +87,13 @@ const Tutorial = () => {
     }
   };
 
-  const jumpToStep = (categoryIndex, stepIndex) => {
-    setCurrentCategory(categoryIndex);
-    setCurrentStep(stepIndex);
-  };
-
   const isStepComplete = (categoryIndex, stepIndex) => {
     if (categoryIndex < currentCategory) return true;
     if (categoryIndex === currentCategory && stepIndex < currentStep) return true;
     return false;
   };
 
+  // Ensure this entire block is properly nested within the component function
   return (
     <div className="flex h-screen bg-gray-900 text-white">
       <div className="w-1/4 bg-gray-800 p-4 overflow-y-auto">
@@ -99,6 +125,7 @@ const Tutorial = () => {
         <div className="bg-gray-800 rounded-lg p-8 max-w-3xl w-full">
           <h2 className="text-2xl font-semibold mb-4">{categories[currentCategory].steps[currentStep].title}</h2>
           <div className="whitespace-pre-wrap mb-4" dangerouslySetInnerHTML={createMarkup(categories[currentCategory].steps[currentStep].content)}></div>
+          {renderMedia(categories[currentCategory].steps[currentStep].mediaUrl)}
           <div className="flex justify-between mt-8">
             <button
               onClick={prevStep}
@@ -125,12 +152,5 @@ const Tutorial = () => {
     </div>
   );
 };
-const createMarkup = (htmlContent) => {
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(`<div>${htmlContent}</div>`, 'text/html'); // Wrap content in a div for proper parsing
-  doc.querySelectorAll('a').forEach(link => {
-    link.classList.add('link-style'); // Add the CSS class to each link
-  });
-  return { __html: doc.body.innerHTML }; // Return processed HTML
-};
+
 export default Tutorial;
